@@ -1,4 +1,7 @@
 # Azure Storage 
+## How to run the sample
+Create an environment variable with name AZURE_STORAGE_CONNECTION_STRING and provide the connection string with the SAS token URL or the connection string with the key.
+
 ## Authentication using shared-key
 Authentication using shared key does not directly use the key against the API, instead it generates a MAC using the Key and the Date header field. 
 
